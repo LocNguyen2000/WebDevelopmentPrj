@@ -1,0 +1,14 @@
+.admin {
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  font-size: 18px;
+  background:#234363d2;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+}

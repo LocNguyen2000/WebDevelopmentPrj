@@ -1,0 +1,35 @@
+.product{
+  width: calc(100vw - 350px);
+  display: flex;
+  margin-top: 20px;
+  padding-left: 100px;
+  flex-direction: column;
+}
+.post-product{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.icon:hover{
+  cursor: pointer;
+}
+.table-data{
+  width: 100%;
+}
+.table-data td button{
+  width: 30px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table-data td button:hover{
+  cursor: pointer;
+}
